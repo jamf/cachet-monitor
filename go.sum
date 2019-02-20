@@ -2,6 +2,8 @@ github.com/andygrunwald/cachet v0.0.0-20180404195246-2a1ca51087fd h1:XOzjt4gLNZm
 github.com/andygrunwald/cachet v0.0.0-20180404195246-2a1ca51087fd/go.mod h1:75LSejNsjxG/979su0CUUAJ956qsllNywDdBZwh4ByQ=
 github.com/castawaylabs/cachet-monitor v1.1.0 h1:T8NshhwHjEIbdlWkeRBuYdnU2ktpBnZpwgh6nxrp62w=
 github.com/castawaylabs/cachet-monitor v1.1.0/go.mod h1:FBK1+4+fLd80wd/+U4Zy8YshPlpgWEvup79AoapOZ2E=
+github.com/castawaylabs/cachet-monitor v1.1.1-0.20190220031445-162d55b3f38b h1:9fSNNfmTNudgGG/daZSiLg2F2vLdR6iZ4sFO8sD/83c=
+github.com/castawaylabs/cachet-monitor v1.1.1-0.20190220031445-162d55b3f38b/go.mod h1:FBK1+4+fLd80wd/+U4Zy8YshPlpgWEvup79AoapOZ2E=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815 h1:bWDMxwH3px2JBh6AyO7hdCn/PkvCZXii8TGj7sbtEbQ=
@@ -18,6 +20,10 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sirupsen/logrus v1.3.0 h1:hI/7Q+DtNZ2kINb6qt/lS+IyXnHQe9e90POfeewL/ME=
 github.com/sirupsen/logrus v1.3.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
+github.com/spf13/cobra v0.0.3 h1:ZlrZ4XsMRm04Fr5pSFxBgfND2EBVa1nLpiy1stUsX/8=
+github.com/spf13/cobra v0.0.3/go.mod h1:1l0Ry5zgKvJasoi3XT1TypsSe7PqH0Sj9dhYf7v3XqQ=
+github.com/spf13/pflag v1.0.3 h1:zPAT6CGy6wXeQ7NtTnaTerfKOsV6V6F8agHXFiazDkg=
+github.com/spf13/pflag v1.0.3/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnInEg4=
 github.com/stretchr/objx v0.1.1/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
