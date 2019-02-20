@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 )
 
 type CachetAPI struct {
@@ -58,7 +58,7 @@ func (api CachetAPI) SendMetric(id int, lag int64) {
 // TODO: test
 // NewRequest wraps http.NewRequest
 func (api CachetAPI) NewRequest(requestType, url string, reqBody []byte) (*http.Response, CachetResponse, error) {
-	req, err := http.NewRequest(requestType, api.URL+url, bytes.NewBuffer(reqBody))
+	req, err := http.NewRequest(requestType, api.URL+"/api/v1"+url, bytes.NewBuffer(reqBody))
 
 	req.Header.Set("Content-Type", "application/json")
 	req.Header.Set("X-Cachet-Token", api.Token)

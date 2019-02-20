@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"errors"
+	cachet "github.com/jamf/cachet-monitor"
 	"io/ioutil"
 	"net/http"
 	"net/url"
@@ -11,8 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Sirupsen/logrus"
-	cachet "github.com/castawaylabs/cachet-monitor"
+	"github.com/sirupsen/logrus"
 	docopt "github.com/docopt/docopt-go"
 	"github.com/mitchellh/mapstructure"
 	"gopkg.in/yaml.v2"
